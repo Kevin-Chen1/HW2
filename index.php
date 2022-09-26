@@ -1,3 +1,4 @@
+<?php require_once("header.php"); ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,4 +16,4 @@ E-mail: <input type="text" name="email"><br>
 </form>
     
     <a class="btn btn-primary" href="page2.html" role="button">Page 2</a>
-    
+    <?php require_once("footer.php"); ?>
